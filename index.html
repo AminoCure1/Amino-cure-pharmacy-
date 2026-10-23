@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#5b2fa8">
+<title>Amino Cure</title>
+<link rel="icon" href="img/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+  <script>window.onerror=function(m,s,l){var d=document.createElement('div');d.style.cssText='position:fixed;z-index:999;top:0;left:0;right:0;background:#b91c1c;color:#fff;padding:10px;font:12px monospace;direction:ltr';d.textContent=m+' @'+(s||'').split('/').pop()+':'+l;document.body.appendChild(d)}</script>
+</head>
+<body>
+
+<div class="splash" id="splash">
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <div class="sp-in">
+    <div class="sp-logo"><img src="logo.png" alt="" onload="this.nextElementSibling.hidden=true" onerror="this.hidden=true"><svg viewBox="0 0 24 24"><path d="M5 19c0-8 5-14 15-14 0 10-5 15-13 14" fill="#fff"/><path d="M5 19c3-5 6-8 10-10" stroke="#5b2fa8" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg></div>
+    <h1 id="spName"></h1>
+    <p id="spTag"></p>
+    <div class="bar"><i></i></div>
+  </div>
+</div>
+
+<main class="app" id="app">
+  <section class="screen" id="s-home"></section>
+  <section class="screen" id="s-wish"></section>
+  <section class="screen" id="s-cats"></section>
+  <section class="screen" id="s-cart"></section>
+  <section class="screen" id="s-me"></section>
+</main>
+
+<nav class="nav" id="nav"></nav>
+<div class="toast" id="toast"></div>
+<div class="detail" id="detail"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
